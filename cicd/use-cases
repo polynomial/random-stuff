@@ -1,0 +1,9 @@
+* operationally
+  * deploy 'quick fix' to prod (security, env specific artifact, etc)
+    * bug affecting customers, easily fixed can be tested in other envs later
+  * 'temporarily' stop deploys to an env
+    * soak time/longer testing
+    * freeze for demo
+  * reproduce prod in other env
+    * will the deploy system also handle data migrations, will they be 'part of the deploy', or 'another step'?
+  * RCA/audit ability to find out what was running where, historically
